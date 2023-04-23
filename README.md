@@ -1,1 +1,43 @@
-This is our simple tribute page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #img{
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+        }
+
+        #title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+
+</style>
+</head>
+
+<main id="main">
+<body>
+<div id="main"></div>
+<div id="title">The life of Dr. Norman Borlaug</div>
+<figure id="img-div">
+<img src="image.jpg" alt="Dr Norman Borlaug" id="image">
+<figcaption id="img-caption">Dr Norman Borlaug recive award
+</figcaption>
+
+</figure>
+<div id="tribute-info">
+ <p>Dr. Norman Borlaug is avery passionate medical
+                    doctor that have served his country in avery high capacity
+ </p>
+ <p>
+                    For more info on Dr. Norman, click or visit the 
+                    <a href="https//wikipedia.com/Dr.Norman" id="tribute-link" target="_blank"></a>
+ </p>
+</div>
+</body>
+</main>
+
+</html>
